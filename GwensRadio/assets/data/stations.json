@@ -1,0 +1,28 @@
+{
+  "stations": [
+    {
+      "title":"WQXR",
+      "website":"https://www.wqxr.org/",
+      "streamUrl":"https://stream.wqxr.org/wqxr",
+      "logoUrl": "wqxr.jpg",
+      "color": "#f4de7f",
+      "genre": "classical"
+    },
+   {
+      "title": "NTS 1",
+      "website": "https://www.nts.live/",
+      "streamUrl": "https://stream-relay-geo.ntslive.net/stream",
+      "logoUrl": "rad_nts_256.png",
+      "color": "#c99dc4",
+      "genre": "electronic"
+    },
+    {
+      "title": "NTS 2",
+      "website": "https://www.nts.live/",
+      "streamUrl": "https://stream-relay-geo.ntslive.net/stream2",
+      "logoUrl": "nts2.jpg",
+      "color": "#8E81A6",
+      "genre": "electronic"
+    }
+  ]
+}

@@ -1,0 +1,312 @@
+body {
+	background-color: #ffeed9;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	height: 100%;
+}
+
+h1 {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+	color: #52290b;
+	margin-left: .5em;
+}
+
+.table {
+	position: absolute;
+	background-color: #52290b;
+	margin: auto;
+	top: 0em;
+	left: -60em;
+	bottom: 0em;
+	right: 0em;
+	height: 100em;
+	width: 300em;
+	rotate: -30deg;
+}
+
+.radioLabels {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	justify-content: flex-start;
+	width: auto;
+	height: auto;
+	align-items: center;
+	margin: auto;
+	position: absolute;
+	bottom: 0;
+	left: 27em;
+	text-align: left;
+	height: 15em;
+	width: 12em;
+	background-color: #ffeed9;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.alignText {
+	margin-left: 6px;
+	margin-bottom: 5px;
+	font-size: 2em;
+}
+
+.container {
+	height: 0;
+	width: 0;
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 25%;
+	top: 0;
+	bottom: 0;
+	font-size: 0.6em;
+}
+
+.face {
+	position: relative;
+	transform-origin: 0 0;
+	height: 16em;
+	width: 16em;
+}
+
+.left {
+	border-radius: 0px 0px 20px 0px;
+	background-color: #8f4815;
+	transform: rotate(90deg) skewX(-30deg) scaleY(0.864);
+}
+
+.top {
+	border-radius: 0px 0px 20px 0px;
+	background-color: #bf742e;
+	transform: rotate(210deg) skew(-30deg) scaleY(0.864);
+	height: 30em;
+	bottom: 32em;
+}
+
+.right {
+	border-radius: 0px 0px 20px 0px;
+	background-color: #e8a643;
+	transform: rotate(-30deg) skewX(-30deg) scaleY(0.864);
+	right: 30%;
+	width: 30em;
+	bottom: 16em;
+}
+
+#buttonOnOff {
+	position: absolute;
+	top: 7em;
+	bottom: 0;
+	right: 8em;
+	left: 0;
+	height: 1em;
+	width: 1.5em;
+	margin: auto;
+	background-color: black;
+	border-style: none;
+	border-radius: 15px;
+	cursor: pointer;
+}
+
+.station {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	position: absolute;
+	height: 1.5em;
+	width: 1.5em;
+	text-align: center;
+	margin: auto;
+	cursor: pointer;
+}
+
+.boxOne {
+	margin: auto;
+	left: 0em;
+	right: 0;
+	top: 0;
+	bottom: 9.5em;
+}
+
+.boxTwo {
+	margin: auto;
+	left: 0;
+	right: 6em;
+	top: 0;
+	bottom: 6.5em;
+}
+
+.boxThree {
+	margin: auto;
+	left: 0;
+	right: 8em;
+	top: 0;
+	bottom: 0;
+}
+
+.boxFour {
+	margin: auto;
+	left: 0;
+	right: 5em;
+	top: 5.3em;
+	bottom: 0;
+}
+
+.boxFive {
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 7em;
+	bottom: 0;
+}
+
+.boxSix {
+	margin: auto;
+	left: 6.5em;
+	right: 0;
+	top: 0;
+	bottom: 7em;
+}
+
+.circle {
+	transform-origin: 0 0;
+	position: absolute;
+	height: 10em;
+	width: 10em;
+	background-color: #ffeed9;
+	border-style: solid;
+	border-color: black;
+	border-radius: 50%;
+	margin: auto;
+	left: 14em;
+	right: 0;
+	top: 0;
+	bottom: 2.5em;
+
+}
+
+.speaker {
+	background-color: black;
+	height: 1.5em;
+	width: 12em;
+	border-radius: 15px;
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+.up {
+	right: 14em;
+	bottom: 10em;
+}
+
+.two {
+	right: 16em;
+	bottom: 5.5em;
+}
+
+.three {
+	right: 16em;
+	bottom: 1em;
+}
+
+.bottom {
+	right: 14em;
+	top: 3.5em;
+}
+
+.dialMiddle {
+	width: 4em;
+	height: 2em;
+	background-color: #444;
+	position: absolute;
+	transform: rotate(40deg) scaleY(0.864);
+	margin: auto;
+	left: 6em;
+	top: 3.2em;
+	border-radius: 10px 0 0 0;
+}
+
+.dialMiddleTwo {
+	width: 3.5em;
+	height: 2em;
+	background-color: #444;
+	position: absolute;
+	transform: rotate(40deg) scaleY(0.864);
+	margin: auto;
+	left: 3.5em;
+	top: 6.46em;
+	border-radius: 0 0 0 4px;
+}
+
+.dialTop {
+	width: 6em;
+	height: 6em;
+	background-color: #666;
+	border-radius: 50%;
+	position: absolute;
+	margin: auto;
+	top: 4em;
+	left: 5em;
+}
+
+.dialBottom {
+	width: 6em;
+	height: 6em;
+	background-color: #444;
+	border-radius: 50%;
+	position: absolute;
+	margin: auto;
+	top: 2.19em;
+	left: 2.8em;
+}
+
+
+#box {
+	display: flex;
+	width: auto;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#container {
+	display: flex;
+	justify-content: flex-start;
+	padding: none;
+}
+
+#page-title {
+	font-family: WickedGrit, Arial, Helvetica, serif;
+}
+
+.logo {
+	width: 10vmin;
+	min-width: 200px;
+	min-height: 200px;
+	border-radius: 10px;
+	margin: 10px;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+	.container {
+		font-size: 0.6em;
+	}
+
+
+}
+
+/* PHONE VIEW */
+@media screen and (max-width: 600px) {
+	.container {
+		font-size: 0.4em;
+	}
+
+	#buttonOnOff {
+		top: 5em;
+		right: 6em;
+		height: .8em;
+	}
+}

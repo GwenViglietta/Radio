@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Minimal Radio</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <script src="assets/js/jquery.js"></script>
+</head>
+
+<body>
+
+  <header>
+    <h1 id="page-title">Minimal Radio</h1>
+  </header>
+
+  <div class="container">
+    <div class="table"></div>
+    <div class="face left"></div>
+
+    <div class="face right">
+      <div class="speaker up"></div>
+      <div class="speaker two"></div>
+      <div class="speaker three"></div>
+      <div class="speaker bottom"></div>
+      <div class="circle">
+        <div class="dialBottom"></div>
+        <div class="dialMiddle"></div>
+        <div class="dialMiddleTwo"></div>
+        <div class="dialTop"></div>
+        <div class="station boxOne" id="0" onclick="streamMusic(this.id);">
+          <p>97</p>
+        </div>
+        <div class="station boxTwo" id="1" onclick="streamMusic(this.id);">
+          <p>96</p>
+        </div>
+        <div class="station boxThree" id="2" onclick="streamMusic(this.id);">
+          <p>95</p>
+        </div>
+        <div class="station boxFour" id="3" onclick="streamMusic(this.id);">
+          <p>94</p>
+        </div>
+        <div class="station boxFive" id="4">
+          <p>93</p>
+        </div>
+        <div class="station boxSix" id="5">
+          <p>98</p>
+        </div>
+      </div>
+      <button id="buttonOnOff">
+        <label id="switch"></label>
+      </button>
+    </div>
+    <div class="face top"></div>
+    <div class="radioLabels">
+      <div class="alignText">
+        <div id="0" onclick="streamMusic(this.id);">
+          <p>97 - WQXR</p>
+        </div>
+
+        <div id="1" onclick="streamMusic(this.id);">
+          <p>96 - NTS 1</p>
+        </div>
+        <div id="2" onclick="streamMusic(this.id);">
+          <p>95 - NTS 2</p>
+        </div>
+      </div>
+
+    </div>
+
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
